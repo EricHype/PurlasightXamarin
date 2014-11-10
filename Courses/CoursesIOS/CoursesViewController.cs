@@ -26,7 +26,19 @@ namespace CoursesIOS
 			base.ViewDidLoad ();
 			
 			// Perform any additional setup after loading the view, typically from a nib.
+            buttonPrev.TouchUpInside += buttonPrev_TouchUpInside;
+            buttonNext.TouchUpInside += buttonNext_TouchUpInside;
 		}
+
+        void buttonPrev_TouchUpInside(object sender, EventArgs e)
+        {
+            labelTitle.Text = "Prev Clicked";
+        }
+
+        void buttonNext_TouchUpInside(object sender, EventArgs e)
+        {
+            labelTitle.Text = "Next Clicked";
+        }
 	}
 }
 
