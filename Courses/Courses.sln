@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
+# Visual Studio 2012
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoursesAndroid", "CoursesAndroid\CoursesAndroid.csproj", "{3FA8D369-C4A3-4FA5-8D4B-ED690C01B3D7}"
@@ -87,6 +87,9 @@ Global
 		{DCE93E7F-82A2-4819-A98D-90E3889CC97F}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 		{DCE93E7F-82A2-4819-A98D-90E3889CC97F}.Release|Mixed Platforms.ActiveCfg = Release|iPhone
 		{DCE93E7F-82A2-4819-A98D-90E3889CC97F}.Release|Mixed Platforms.Build.0 = Release|iPhone
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = CoursesIOS\CoursesIOS.csproj
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

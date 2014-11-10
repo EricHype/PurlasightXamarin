@@ -21,6 +21,17 @@ namespace CoursesIOS
             set;
         }
 
+
+		CoursesViewController viewController;
+
+		public override void FinishedLaunching (UIApplication application)
+		{
+			Window = new UIWindow (UIScreen.MainScreen.Bounds);
+			viewController = new CoursesViewController ();
+			Window.RootViewController = viewController;
+			Window.MakeKeyAndVisible ();
+		}
+
         //
         // This method is invoked when the application is about to move from active to inactive state.
         //
